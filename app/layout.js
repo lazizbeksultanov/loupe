@@ -2,6 +2,7 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from "@/app/components/header";
 import Footer from "@/app/components/footer";
+import Contact from "@/app/sections/contact";
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,7 @@ export default function RootLayout({ children }) {
               {children}
           </div>
           <div className="flex-none">
+              <Contact />
               <Footer />
           </div>
       </div>

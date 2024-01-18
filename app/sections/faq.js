@@ -1,7 +1,4 @@
-'use client'
-
 import Accordion from "@/app/components/Accordion";
-import React from "react";
 
 const FAQ = () => {
     const faq = [
@@ -34,11 +31,11 @@ const FAQ = () => {
     return(
         <div className="bg-gray-50">
             <div className="container">
-                <p className="text-4xl font-semibold text-primary text-center mb-10">Часто задаваемые вопросы</p>
-                <div className="flex flex-wrap items-start w-full">
+                <p className="text-3xl md:text-4xl font-semibold text-primary text-center mb-10" data-aos="fade-up" data-aos-delay="200">Часто задаваемые вопросы</p>
+                <div className="flex flex-wrap items-start w-full" data-aos="fade-up" data-aos-delay="400">
                     {faq.map((item, index) => {
                         return(
-                            <div key={index} className="w-1/2 odd:pr-2.5 even:pl-2.5">
+                            <div key={index} className="w-full">
                                 <Accordion title={item.title} answer={item.answer} />
                             </div>
                         )

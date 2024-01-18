@@ -3,10 +3,11 @@ import Image from "next/image";
 
 const Reviews = () => {
     return (
-        <div className="bg-gray-50 py-24">
+        <div className="bg-gray-50 md:py-24 py-14">
             <div className="container">
-                <div className="grid grid-cols-3 gap-5">
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                <p className="md:text-4xl text-3xl font-semibold text-primary text-center mb-10" data-aos="fade-up">Отзывы</p>
+                <div className="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-2 gap-5">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="200">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>
@@ -53,7 +54,7 @@ const Reviews = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="300">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>
@@ -100,7 +101,7 @@ const Reviews = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="400">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>
@@ -147,7 +148,7 @@ const Reviews = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="200">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>
@@ -194,7 +195,7 @@ const Reviews = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="300">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>
@@ -241,7 +242,7 @@ const Reviews = () => {
                             </svg>
                         </div>
                     </div>
-                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg">
+                    <div className="bg-white w-full h-full rounded-xl p-6 shadow-lg" data-aos="fade-up" data-aos-delay="400">
                         <div className="flex gap-3">
                             <Image src={Review1} alt={"Review 1"} className="w-12 h-12 rounded-full"/>
                             <div>

@@ -3,13 +3,13 @@ import AboutRight from "@/app/assets/images/about-right.png";
 
 const About = () => {
     return (
-        <div className="bg-primary py-14">
-            <div className="container py-14 grid lg:grid-cols-2 grid-cols-1">
-                <div className="pr-24">
-                    <p className="text-4xl leading-[135%] text-white font-semibold">О Нас</p>
-                    <p className="text-white font-normal text-lg mt-2 mb-7 mr-6">Добро пожаловать в наше пространство, где мы создаем простые и эффективные бизнес-решения. Наши ценности:</p>
-                    <div className="grid grid-cols-2 gap-4">
-                        <div className="bg-gray-700 rounded-xl p-4">
+        <div className="bg-primary">
+            <div className="container md:pt-20 md:pb-40 sm:pt-10 pt-8 pb-20 grid lg:grid-cols-2 grid-cols-1 gap-y-20">
+                <div className="md:pr-24">
+                    <p className="text-4xl leading-[135%] text-white font-semibold" data-aos="fade-up" data-aos-delay="200">О Нас</p>
+                    <p className="text-white font-normal text-lg mt-2 mb-7 mr-6" data-aos="fade-up" data-aos-delay="300">Добро пожаловать в наше пространство, где мы создаем простые и эффективные бизнес-решения. Наши ценности:</p>
+                    <div className="grid sm:grid-cols-2 grid-cols-1 gap-4">
+                        <div className="bg-gray-700 rounded-xl p-4" data-aos="fade-up" data-aos-delay="300">
                             <div className="p-1.5 rounded-lg bg-secondary w-max">
                                 <svg width="28" height="28" viewBox="0 0 28 28" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -38,7 +38,7 @@ const About = () => {
                             </div>
                             <p className="text-white text-base font-normal mt-4"><b>Инновации:</b> В поиске новых идей для оптимизации вашего опыта.</p>
                         </div>
-                        <div className="bg-gray-700 rounded-xl p-4">
+                        <div className="bg-gray-700 rounded-xl p-4" data-aos="fade-up" data-aos-delay="400">
                             <div className="p-1.5 rounded-lg bg-secondary w-max">
                                 <svg width="26" height="24" viewBox="0 0 26 24" fill="none"
                                      xmlns="http://www.w3.org/2000/svg">
@@ -65,8 +65,8 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full">
-                    <div className="ml-auto w-max relative">
-                        <svg className="absolute -top-6 -left-7" width="25" height="24" viewBox="0 0 25 24" fill="none">
+                    <div className="sm:ml-auto mx-auto w-full sm:w-max relative" data-aos="fade-left" data-aos-delay="300">
+                        <svg className="absolute -top-6 -left-7 sm:block hidden" width="25" height="24" viewBox="0 0 25 24" fill="none">
                             <g clipPath="url(#clip0_16_577)">
                                 <path
                                     d="M19.4804 10.4776C17.5335 7.43283 15.598 4.38806 13.6853 1.3209C13.1275 0.447761 14.1521 0 14.9263 0C15.9282 0 17.3628 0.335821 17.9548 1.23134C19.9586 4.27612 21.9396 7.3209 23.9092 10.3769C24.4899 11.2836 23.3969 11.7537 22.6227 11.7537C21.598 11.7537 20.0724 11.4067 19.4804 10.4776Z"
@@ -84,9 +84,9 @@ const About = () => {
                                 </clipPath>
                             </defs>
                         </svg>
-                        <Image src={AboutRight} alt={"Right"} className="max-w-[474px]"/>
-                        <div className="p-6 bg-white rounded-lg w-max absolute bottom-6 -left-[70px]">
-                            <p className="text-secondary font-semibold text-4xl">+16 000</p>
+                        <Image src={AboutRight} alt={"Right"} className="w-full sm:w-[474px]"/>
+                        <div className="w-4/6 p-6 bg-white rounded-lg sm:w-max absolute sm:bottom-6 sm:-left-[70px] sm:mx-0 sm:right-auto -bottom-[15%] left-0 right-0 mx-auto" data-aos="fade-left" data-aos-delay="500">
+                            <p className="text-secondary font-semibold text-4xl">+200</p>
                             <p className="text-gray-700 text-lg font-normal">проведенных исследований</p>
                         </div>
                     </div>
