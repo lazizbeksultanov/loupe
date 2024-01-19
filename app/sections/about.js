@@ -65,7 +65,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="w-full">
-                    <div className="sm:ml-auto mx-auto w-full sm:w-max relative" data-aos="fade-left" data-aos-delay="300">
+                    <div className="sm:ml-auto mx-auto w-full sm:w-max relative" data-aos="fade-up" data-aos-delay="300">
                         <svg className="absolute -top-6 -left-7 sm:block hidden" width="25" height="24" viewBox="0 0 25 24" fill="none">
                             <g clipPath="url(#clip0_16_577)">
                                 <path
