@@ -9,7 +9,7 @@ const Services = () => {
                         консалтинговые услуги в области маркетинга и управления</p>
                 </div>
                 <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 grid-rows-[326px]">
-                    <div className="p-6 rounded-xl border border-gray-200 transition shadow-md hover:shadow-xl delay-500" data-aos="fade-up" data-aos-delay="100">
+                    <div className="p-6 rounded-xl border border-gray-200" data-aos="fade-up" data-aos-delay="100">
                         <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M20 0.5C20.8284 0.5 21.5 1.17157 21.5 2C21.5 2.82843 20.8284 3.5 20 3.5C10.8684 3.5 3.5 10.8684 3.5 20C3.5 29.1187 10.8756 36.5 20 36.5C29.1116 36.5 36.5 29.1116 36.5 20C36.5 19.1716 37.1716 18.5 38 18.5C38.8284 18.5 39.5 19.1716 39.5 20C39.5 30.7684 30.7684 39.5 20 39.5C9.21822 39.5 0.5 30.7751 0.5 20C0.5 9.21157 9.21157 0.5 20 0.5Z"
