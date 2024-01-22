@@ -85,7 +85,7 @@ const About = () => {
                             </defs>
                         </svg>
                         <Image src={AboutRight} alt={"Right"} className="w-full sm:w-[474px]"/>
-                        <div className="w-4/6 p-6 bg-white rounded-lg sm:w-max absolute sm:bottom-6 sm:-left-[70px] sm:mx-0 sm:right-auto -bottom-[15%] left-0 right-0 mx-auto" data-aos="fade-left" data-aos-delay="500">
+                        <div className="w-4/6 p-6 bg-white rounded-lg sm:w-max absolute sm:bottom-6 sm:-left-[70px] sm:mx-0 sm:right-auto -bottom-[15%] left-0 right-0 mx-auto" data-aos="fade-up" data-aos-delay="500">
                             <p className="text-secondary font-semibold text-4xl">+200</p>
                             <p className="text-gray-700 text-lg font-normal">проведенных исследований</p>
                         </div>
