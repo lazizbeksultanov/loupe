@@ -26,8 +26,9 @@ const Header = () => {
                     </div>
                     <div className="flex items-center">
                         <a href="tel:+998712809401" target="_blank"
-                           className="text-white border-b border-white sm:inline-block hidden" data-aos="fade-left" data-aos-delay="200">+998 71 280
-                            9401</a>
+                           className="text-white border-b border-white sm:inline-block hidden" data-aos="fade-left" data-aos-delay="200">
+                            +998 71 280 9401
+                        </a>
                         <button className="grid lg:hidden gap-y-1.5 ml-8" onClick={() => setActive(!active)}>
                             <div className="w-10 h-1 rounded-md bg-white"></div>
                             <div className="w-10 h-1 rounded-md bg-white"></div>
